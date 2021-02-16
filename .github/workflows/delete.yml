@@ -1,0 +1,14 @@
+name: Delete Action
+
+on:
+  schedule:
+  - cron: '0 0 * * 0' # Every Sunday
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      uses: wei/curl@v1
+      with:
+        args: -X DELETE https://coyote-point-wind.herokuapp.com/api/wind
