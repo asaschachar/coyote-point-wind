@@ -10,7 +10,7 @@ Application to track wind overtime for Coyote Point Marina by saving data period
 - `yarn dev`
 
 Made by following [this guide](https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/)
-And [this guide](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
+and [this guide](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
 
 ## Create the table
 - Create a local table in `psql`:
