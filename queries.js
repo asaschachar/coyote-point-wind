@@ -25,8 +25,13 @@ const getLastUpdatedDate = (req, res) => {
     if (error) {
       throw error
     }
+
+    let lastUpdated = results.rows.length > 0
+      ? Number(results.rows[0].last_updated)
+      : null;
+
     res.status(200).json({
-      last_updated: Number(results.rows[0].last_updated),
+      last_updated: lastUpdated,
     })
   })
 }
