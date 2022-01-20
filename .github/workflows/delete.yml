@@ -1,8 +1,9 @@
 name: Delete Action
 
 on:
-  schedule:
-  - cron: '0 0 * * 0' # Every Sunday
+  workflow_dispatch:
+ # schedule:
+ # - cron: '0 0 * * 0' # Every Sunday
 
 jobs:
   curl:
