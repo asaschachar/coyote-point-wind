@@ -1,5 +1,5 @@
 # Wind for Coyote Point Marina
-Application to track wind overtime for Coyote Point Marina by saving data periodically from this [source](https://parks.smcgov.org/weather-coyote-point-marina)
+Application to track wind overtime for Coyote Point Marina by saving data periodically from this [source](https://parks.smcgov.org/weather-coyote-point-marina).
 
 [Live demo](http://coyote-point.asametrical.com/)
 
