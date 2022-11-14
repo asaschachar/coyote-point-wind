@@ -12,6 +12,8 @@ Application to track wind overtime for Coyote Point Marina by saving data period
 Made by following [this guide](https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/)
 and [this guide](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
 
+Note: Free tier on Heroku might be expiring. 
+
 ## Deploying
 https://stackoverflow.com/questions/71892543/heroku-and-github-items-could-not-be-retrieved-internal-server-error#answer-71905270
 
